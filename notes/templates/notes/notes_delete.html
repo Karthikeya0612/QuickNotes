@@ -4,8 +4,8 @@
 
 <form method="post">
     {% csrf_token %}
-    <p>Are you sure, do you want to delete "{{notes.title}}"?</p>
-    <p>This action can't be undone</p>
+    <p style="margin: auto; text-align: center; padding: 5px;">Are you sure, do you want to delete "{{notes.title}}"?</p>
+    <p style="margin: auto; text-align: center; padding: 5px;">This action can't be undone</p>
     <input type="submit" class="btn btn-danger" value="Confirm"/>
 </form>
 

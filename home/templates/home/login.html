@@ -3,8 +3,10 @@
 {% block content %}
 
 <form method="post">
-    {% csrf_token %}
-    {{form.as_p}}
+    <div class="login container">
+        {% csrf_token %}
+        {{form.as_p}}
+    </div>
     <input type="submit" class="btn btn-primary"/>
 </form>
 

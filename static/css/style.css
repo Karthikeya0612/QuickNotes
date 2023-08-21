@@ -11,6 +11,7 @@ div.p-3.border a:hover h3{
 }
 p{
     text-align: justify;
+    margin: auto;
 }
 .form-control .form-control-sm{
     margin: auto;
@@ -36,4 +37,15 @@ textarea#id_text {
 }
 .notes-display p{
     color: black
+}
+.login p{
+    width: 50%;
+    /* align-items: center; */
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+.register label{
+    margin: 5px;
+    padding: 5px;
 }
